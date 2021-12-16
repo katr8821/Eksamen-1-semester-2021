@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Bree Serif;
+    src: url(/Hjmmeside/Bree_Serif/BreeSerif-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair Display;
+    src: url(/Hjmmeside/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+:root{
+    --Baggrund: #EAECEE;
+    --Nav: #FFFFFF;
+    --tekst: #707070;
+}
