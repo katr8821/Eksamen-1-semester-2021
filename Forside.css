@@ -82,9 +82,13 @@ p{
 }
 
 .kontakt a{
-    color: var(--text);
-    
+    color: var(--text);  
 }
+
+.LivsLæring{
+    text-align: center;
+}
+
 footer{
     color: var(--text);
     font-family: Playfair-Display;
