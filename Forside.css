@@ -1,78 +1,85 @@
 @font-face {
-    font-family: Bree-Serif; 
+    font-family: Bree-Serif;
     src: url(Bree_Serif/BreeSerif-Regular.ttf);
 }
+
 @font-face {
     font-family: Playfair-Display;
     src: url(Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
-:root{
+
+:root {
     --Baggrund: #EAECEE;
     --Nav: #FFFFFF;
     --text: #707070;
     --footer: #FFFFFF;
-} 
+}
 
 
-body{
-margin: auto;
-background-color: var(--Baggrund);
-font-family: bree-serif; 
+body {
+    margin: auto;
+    background-color: var(--Baggrund);
+    font-family: bree-serif;
 
 }
 
-.navbar{
-text-decoration: none;
-font-family: Playfair-Display;
-padding: 10px;
-background-color: var(--Nav);
-color: var(--text);
-margin: 0px;
-padding: 0px;
-display: 10px;
+.navbar {
+    text-decoration: none;
+    font-family: Playfair-Display;
+    padding: 10px;
+    background-color: var(--Nav);
+    color: var(--text);
+    margin: 0px;
+    padding: 0px;
+    display: 10px;
 }
 
-.navbar a{
+.navbar a {
     background-color: var(--Nav);
     color: var(--text);
     text-decoration: none;
-    font-family: 'Playfair-Display';  
+    font-family: 'Playfair-Display';
     text-align: center;
 
 }
 
-ul{
+ul {
     list-style-type: none;
     display: flex;
     padding: 0px;
     margin: 0px;
-    justify-content:space-around
+    justify-content: space-around
 }
 
-li{
+li {
     padding-top: 30px;
     padding-right: 17px;
 }
 
-.textstyle{
-font-family: Playfair-Display;
-color: var(--text);
-padding: 50px;
+.textstyle {
+    font-family: Playfair-Display;
+    color: var(--text);
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
-h2{
+h2 {
     font-family: Bree-Serif;
     color: var(--text);
     text-align: center;
+
 }
 
-p{
+
+
+p {
     font-family: Playfair-Display;
     color: var(--text);
     text-align: center;
 }
 
-.kontakt div{
+.kontakt div {
     font-family: Playfair-Display;
     text-align: center;
     display: flex;
@@ -81,15 +88,15 @@ p{
     justify-content: space-evenly;
 }
 
-.kontakt a{
-    color: var(--text);  
+.kontakt a {
+    color: var(--text);
 }
 
-.LivsLæring{
+.LivsLæring {
     text-align: center;
 }
 
-footer{
+footer {
     color: var(--text);
     font-family: Playfair-Display;
     background-color: var(--footer);
@@ -98,21 +105,22 @@ footer{
     justify-content: space-evenly;
 }
 
-.pb{
+.pb {
     text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
-    body{
+    body {
         font-size: 400%;
     }
-    img{
+
+    img {
         width: 30%;
         height: 30%;
     }
-    .logo{
+
+    .logo {
         width: 5%;
         height: 5%;
     }
 }
-
